@@ -1,0 +1,49 @@
+@keyframes rgb {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: lime;
+    }
+    66% {
+        background-color: #02f;
+    }
+    100% {
+        background-color: red;
+    }
+    
+}
+@keyframes link {
+    0% {
+        color: red
+    }
+    33% {
+        color: lime;
+    }
+    66% {
+        color: #02f;
+    }
+    100%{
+        color: red;
+    }
+    
+}
+@keyframes movedown {
+    0% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes moveline {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
