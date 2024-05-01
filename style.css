@@ -713,6 +713,7 @@ and (orientation: portrait) {
         transform: translate(-50%, -50%);
     } 
     .cursor-dot {
+        display: none;
         width: 20px;
         height: 20px;
         /* border: 2px solid #c6c6c6; */
@@ -720,6 +721,7 @@ and (orientation: portrait) {
         /* transition-duration: 50ms; */
     }
     .cursor-outline {
+        display: none;
         width: 6px;
         height: 6px;
         /* background-color: #c6c6c6; */
@@ -816,7 +818,7 @@ and (orientation: portrait) {
         animation-delay: 4s;
     }
     .text-box{
-        padding: 20px 30px;
+        padding: 20px 0px;
         padding-left: 60px;
         /* background: #fffa; */
         position: relative;
@@ -831,7 +833,7 @@ and (orientation: portrait) {
         position: relative;
     }
     .timeline-content {
-        padding: 40px 0;
+        padding: 40px 20px 0px 0px;
         font-size: 20px;
     }
     .timeline-content .heading {
@@ -944,10 +946,10 @@ and (orientation: portrait) {
         color: #eee
     }
     .intro .name-line {
-        font-size: 48px !important;
+        font-size: 30px !important;
     }
     .intro .name {
-        font-size: 48px;
+        font-size: 30px;
         font-weight: 600 !important;
         font-family:Arial, Helvetica, sans-serif;
         animation: link 3s linear infinite;
@@ -1029,6 +1031,7 @@ and (orientation: portrait) {
     }
     .card {
         width: 400px;
+        width: 100%;
         background:#3344;
         border: solid 2px #fff4;
         border-radius: 10px;
@@ -1047,7 +1050,10 @@ and (orientation: portrait) {
             );
         }
         .content {
-            padding: 10px 30px 50px 30px;
+            padding: 50px 20px;
+            p {
+                text-align: justify;
+            }
         }
         .card h2 {
             color: #fff4;
@@ -1147,7 +1153,7 @@ and (orientation: portrait) {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        padding: 1em;
+        padding: 5px 0;
         max-width: 1100px;
         margin: 0 auto;
         /* min-height: 100vh; */
