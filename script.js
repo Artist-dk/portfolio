@@ -863,24 +863,24 @@ function setform() {
 
 
 
-function setdataa() {
-  var form = document.forms[0];
-  form.elements["firstname"].value = 'digambar';
-//   form.elements["middleName"].value = 'chandrakant';
-  form.elements["lastname"].value = 'kumbhar';
-  form.elements["phoneno"].value = '9970036430';
-  form.elements["emailid"].value = 'digambarckumbhar299@gmail.com';
-  form.elements["message"].value = 'sketcher';
-}
-// window.onload = setdatab();
-// function setdatab() {
+// function setdataa() {
 //   var form = document.forms[0];
-//   form.elements["firstName"].value = 'sdfa3';
-//   form.elements["middleName"].value = 'adfe3';
-//   form.elements["lastName"].value = 'adf3';
-//   form.elements["username"].value = 'sketcher';
-//   form.elements["phone"].value = 'se33';
-//   form.elements["email"].value = 'digambarckumbd'
-//   form.elements["password"].value = 'Pass1234';
-//   form.elements["confirmPassword"].value = 'Pass@1234';
+//   form.elements["firstname"].value = 'digambar';
+// //   form.elements["middleName"].value = 'chandrakant';
+//   form.elements["lastname"].value = 'kumbhar';
+//   form.elements["phoneno"].value = '9970036430';
+//   form.elements["emailid"].value = 'digambarckumbhar299@gmail.com';
+//   form.elements["message"].value = 'sketcher';
 // }
+// // window.onload = setdatab();
+// // function setdatab() {
+// //   var form = document.forms[0];
+// //   form.elements["firstName"].value = 'sdfa3';
+// //   form.elements["middleName"].value = 'adfe3';
+// //   form.elements["lastName"].value = 'adf3';
+// //   form.elements["username"].value = 'sketcher';
+// //   form.elements["phone"].value = 'se33';
+// //   form.elements["email"].value = 'digambarckumbd'
+// //   form.elements["password"].value = 'Pass1234';
+// //   form.elements["confirmPassword"].value = 'Pass@1234';
+// // }
