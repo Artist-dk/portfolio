@@ -678,6 +678,18 @@ and (orientation: portrait) {
         color: white;
         cursor: none;
     }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    small {
+        font-size: 10px;
+    }
+    p{
+        font-size: 14px;
+    }
     .cursor {
         display: inline-block;
         width: 2px;
@@ -1044,6 +1056,21 @@ and (orientation: portrait) {
         border-bottom: 5px solid #02f;
         font-weight: 800;
     }
+    
+.certificate {
+    padding: 20px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    border: solid 1px white;
+    backdrop-filter: blur(10px);
+
+    a {
+        color: #08f;
+        font-size: 12px;
+        word-break: break-all;
+    }
+}
     .cards {
         display: flex;
         justify-content: space-between;
@@ -1176,6 +1203,7 @@ and (orientation: portrait) {
             transform: translate(20px, 20px);
             
         }
+    
     /* Art gallery */
     .ag-cards {
         display: flex;
@@ -1390,7 +1418,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     justify-content: left;
     align-items: center;
     width: 250px;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
 }
 .contact-link-cont a {
@@ -1399,8 +1427,8 @@ and (-webkit-min-device-pixel-ratio: 3) {
     justify-content: center;
 }
 .contact-link-cont .icon {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background: linear-gradient(-45deg,#ffa63d,#ff3d77,#02f);
     border: solid 2px #fff;
     border-radius: 50%;
