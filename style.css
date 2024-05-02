@@ -797,8 +797,8 @@ and (orientation: portrait) {
     }
     .container {
         /* padding: 10px 50px; */
-        margin-top: 8%;
-        margin-bottom: 20%;
+        margin-top: 40%;
+        margin-bottom: 5px;
         /* min-height: 50vh; */
         position: relative;
         width: calc(100% - 20px);
