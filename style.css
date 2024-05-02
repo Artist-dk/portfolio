@@ -364,7 +364,6 @@ nav ul li {
     margin-bottom: 10px;
     font-size: 16px;
     display: inline-block;
-    border-bottom: 5px solid #02f;
     font-weight: 800;
 }
 .cards {
@@ -1053,7 +1052,6 @@ and (orientation: portrait) {
         margin-bottom: 10px;
         font-size: 16px;
         display: inline-block;
-        border-bottom: 5px solid #02f;
         font-weight: 800;
     }
     
@@ -1500,9 +1498,9 @@ form .form-row .input-data{
 
 .input-data input:focus ~ label, .textarea textarea:focus ~ label,
 .input-data input:valid ~ label, .textarea textarea:valid ~ label{
-    transform: translateY(-40px);
+    transform: translate(4px, -44px);
     font-size: 14px;
-    color: #fff;
+    color: #0f0;
 }
 .textarea textarea{
     resize: none;
