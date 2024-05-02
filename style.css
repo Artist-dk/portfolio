@@ -115,8 +115,8 @@ body {
 }
 .container {
     /* padding: 10px 50px; */
-    margin-top: 8%;
-    margin-bottom: 20%;
+    margin-top: 20%;
+    margin-bottom: 1em;
     /* min-height: 50vh; */
     position: relative;
     width: calc(100% - 20px);
@@ -251,7 +251,8 @@ small {
 .certification::before,
 .education::before,
 .hobbies::before,
-.contact::before{
+.contact::before,
+.follow::before{
     position: absolute;
     z-index: -1;
     transform: translate(30px, -60%);
@@ -279,7 +280,10 @@ small {
     content: "ART";
 }
 .contact::before {
-    content: "CONTACTS";
+    content: "CONTACT";
+}
+.follow::before {
+    content: "FOLLOW";
 }
 .intro .a1 {
     font-family: cursive;
@@ -395,9 +399,16 @@ nav ul li {
         0px 10px 25px rgba(0, 0, 0, 0.5)
         );
     }
-    .content {
+    .card .content {
         padding: 10px 30px 50px 30px;
+        p {
+            font-size: 14px;
+            text-align: justify;
+            line-height: 20px;
+            margin-top: 10px;
+        }
     }
+
     .card h2 {
         color: #fff4;
         margin: 0 0 0 0.8em;
@@ -409,7 +420,7 @@ nav ul li {
         border-radius: 15px 15px 50% 100%;
     }
     .banner h2 {
-        font-size: 20px;
+        font-size: 120px;
         position: absolute;
         transform: translate(-50%, 0%);
     }
@@ -561,6 +572,19 @@ nav ul li {
 .ag-card .ag-pop p{
     color: lime;
     font-size: 12px;
+}
+
+.certificate {
+    padding: 20px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    border: solid 1px white;
+    backdrop-filter: blur(10px);
+    a {
+        color: #08f;
+        font-size: 14px;
+    }
 }
 
 /* width */
@@ -900,7 +924,8 @@ and (orientation: portrait) {
     .certification::before,
     .education::before,
     .hobbies::before,
-    .contact::before{
+    .contact::before,
+    .follow::before{
         position: absolute;
         z-index: -1;
         transform: translate(30px, -60%);
@@ -929,6 +954,9 @@ and (orientation: portrait) {
     }
     .contact::before {
         content: "CONTACTS";
+    }
+    .follow::before {
+        content: "FOLLOW";
     }
     .intro .a1 {
         font-family: cursive;
@@ -1060,9 +1088,9 @@ and (orientation: portrait) {
             margin: 0 0 0 0.8em;
         }
         .banner {
-            height: 5em;
+            height: 7em;
             background: linear-gradient(-45deg,#ffa63d,#ff3d77,#02f);
-            padding-top: 0em;
+            padding-top: 20px;
             border-radius: 15px 15px 50% 100%;
         }
         .banner h2 {

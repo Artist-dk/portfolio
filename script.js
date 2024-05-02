@@ -555,13 +555,27 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
-var list = {'python':50, 'js':80, 'java':40, 'php':20, 'mysql':75, 'html':80, 'css':75, 'dsa':60, 'daa':40 }
+var list = {
+  'python':60,
+  'javascript':95,
+  'java':65,
+  'php':20,
+  'mysql':95,
+  'html':80,
+  'css':75,
+  'dsa':60,
+  'daa':40,
+  'reactjs':80,
+  'nodejs':40,
+  'expressjs': 70,
+  'mongodb':20
+}
 console.log(list)
 var a = document.getElementById('pythonProgress');
 a.style.width = list.python+'%';
 
-var a = document.getElementById('jsProgress');
-a.style.width = list.js+'%';
+var a = document.getElementById('javascriptProgress');
+a.style.width = list.javascript+'%';
 
 var a = document.getElementById('javaProgress');
 a.style.width = list.java+'%';
@@ -582,7 +596,19 @@ var a = document.getElementById('dsaProgress');
 a.style.width = list.dsa+'%';
 
 var a = document.getElementById('daaProgress');
-a.style.width = list.daa+'%';
+a.style.width = list.daa+'%'
+
+var a = document.getElementById('reactjsProgress');
+a.style.width = list.reactjs+'%';
+
+var a = document.getElementById('expressjsProgress');
+a.style.width = list.expressjs+'%';
+
+var a = document.getElementById('nodejsProgress');
+a.style.width = list.nodejs+'%';
+
+var a = document.getElementById('mongodbProgress');
+a.style.width = list.mongodb+'%';
 
 var cursorD = document.querySelector(".cursor-dot");
 var cursorO = document.querySelector('.cursor-outline');
@@ -738,3 +764,18 @@ const animateitB = function (e) {
   window.addEventListener('mousemove', editCursor);
 
 })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------
+
