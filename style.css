@@ -190,7 +190,6 @@ body {
 }
 .timeline-content .heading {
     color: #556;
-    height: 30px;
     display: block;
 }
 .timeline-content .content {
@@ -410,7 +409,7 @@ nav ul li {
         border-radius: 15px 15px 50% 100%;
     }
     .banner h2 {
-        font-size: 200px;
+        font-size: 20px;
         position: absolute;
         transform: translate(-50%, 0%);
     }
@@ -756,7 +755,7 @@ and (orientation: portrait) {
         background: #02f;
         /* background: linear-gradient(0deg,#ffa63d,#ff3d77,#02f); */
         top: 30px;
-        left: 30px;
+        left: 10px;
         margin-left: -3px;
         z-index: -1;
         animation: moveline 3s linear forwards;
@@ -819,26 +818,27 @@ and (orientation: portrait) {
     }
     .text-box{
         padding: 20px 0px;
-        padding-left: 60px;
+        padding-left: 20px;
         /* background: #fffa; */
         position: relative;
         /* border-radius: 6px; */
-        font-size: 15px;
+        font-size: 12px;
     }
     .timeline-title {
-        margin-top: 2px;
+        margin-top: 4px;
+        margin-left: 12px;
         font-size: 20px;
         color: #ff0;
         left: -20px;
         position: relative;
     }
     .timeline-content {
-        padding: 40px 20px 0px 0px;
+        padding: 40px 0px 0px 0px;
         font-size: 20px;
     }
     .timeline-content .heading {
         color: #556;
-        height: 30px;
+        /* height: 30px; */
         display: block;
     }
     .timeline-content .content {
@@ -887,7 +887,7 @@ and (orientation: portrait) {
         /* border-top: 15px solid transparent; */
         /* border-bottom: 15px solid transparent; */
         /* border-right: 15px solid #fff; */
-        left: 11px;
+        left: -9px;
     }
     .psudo-line {
         font-size: 32px;
@@ -961,7 +961,7 @@ and (orientation: portrait) {
         top: -50px;
         right: 50px;
         height: auto;
-        width: 300px;
+        width: 100%;
         opacity: .4;
         z-index: -1;
     }
@@ -1050,7 +1050,7 @@ and (orientation: portrait) {
             );
         }
         .content {
-            padding: 50px 20px;
+            padding: 20px 20px;
             p {
                 text-align: justify;
             }
@@ -1060,13 +1060,13 @@ and (orientation: portrait) {
             margin: 0 0 0 0.8em;
         }
         .banner {
-            height: 10em;
+            height: 5em;
             background: linear-gradient(-45deg,#ffa63d,#ff3d77,#02f);
-            padding-top: 3em;
+            padding-top: 0em;
             border-radius: 15px 15px 50% 100%;
         }
         .banner h2 {
-            font-size: 200px;
+            font-size: 100px;
             position: absolute;
             transform: translate(-50%, 0%);
         }
@@ -1123,11 +1123,12 @@ and (orientation: portrait) {
             backdrop-filter: blur(5px);
             box-shadow: 10px 10px 30px #000a;
             width: fit-content;
-            padding: 40px 30px 15px 60px;
+            padding: 20px 30px 15px 40px;
             border-radius: 10px;
             border: solid 2px #fffa;
         }
         .pop h1 {
+            font-size: 20px;
             padding-bottom: 10px;
             margin-bottom: 10px;
             width: fit-content;
@@ -1136,8 +1137,8 @@ and (orientation: portrait) {
         .pop h1::after {
             content : "";
             position: absolute;
-            top: 0;
-            left: 0;
+            top: -10px;
+            left: -10px;
             height  : 5px;
             width   : 50px;  /* or 100px */
             background: linear-gradient(-45deg,#ffa63daa,#ff3d77aa,#02fa);
@@ -1171,6 +1172,7 @@ and (orientation: portrait) {
         transform-style: preserve-3d;
         transform: perspective(1000px);
         margin: 2em;
+        /* width: fit-content; */
         /* border-radius:27% 73% 86% 14% / 22% 56% 44% 78% ;
         border-radius:50% ; */
         /* background: rgb(4,0,36); */
@@ -1178,12 +1180,12 @@ and (orientation: portrait) {
     }
     .ag-card .img-bg {
         border-radius:27% 73% 86% 14% / 22% 56% 44% 78% ;
-        border-radius:50% ;
+        border-radius:50%;
         background: rgb(4,0,36);
         background: linear-gradient(40deg,#ff00e4  0%,#02f  100%);
     }
     .ag-card img {
-        width: 15em;
+
         border-radius: 15px;
         background:#3344;
         border: solid 4px transparent;
@@ -1192,6 +1194,7 @@ and (orientation: portrait) {
         transform-style: preserve-3d;
         transform: perspective(1000px);
         aspect-ratio:  564 / 752;
+        width: 100%;
         /* margin: 2em; */
     }
     .ag-card .ag-pop {
