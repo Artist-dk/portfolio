@@ -666,6 +666,10 @@ nav ul li {
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
+    
+    header .artist li a{ 
+     font-size: 32px;   
+    }
     :root {
         --input-height: 50px;
     }
@@ -1010,7 +1014,6 @@ and (orientation: portrait) {
     }
     header {
         height: 50px;
-        display: none;
     }
     nav {
         padding: 0px 30px;
@@ -1307,14 +1310,21 @@ and (max-device-width: 1024px) {
 }
 
 /* For Mobile Landscape View */
+@media screen and (max-device-width: 750px) {
+    header .right-nav {
+        display: none;
+    }
+    .intro img {
+        display: block;
+        position: static;
+    }
+}
+
+/* For Mobile Landscape View */
 @media screen and (max-device-width: 640px)
 and (orientation: landscape) {
-    .gfg-div {
-        width: 400px;
-        height: 200px;
-        background-color: cyan;
-        color: black;
-    }
+
+ 
 }
 
 /* For Mobile Phones Portrait or Landscape View */
