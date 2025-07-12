@@ -315,7 +315,7 @@ small {
     top: -50px;
     right: 50px;
     width: 300px;
-    opacity: .4;
+    /* opacity: .4; */
     z-index: -1;
 }
 .intro .skills {
